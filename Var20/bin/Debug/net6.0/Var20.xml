@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Var20</name>
+    </assembly>
+    <members>
+        <member name="T:CreateBD20.DBStructure.Info">
+            <summary>
+            Class with data about passenger
+            </summary>
+        </member>
+        <member name="P:CreateBD20.DBStructure.Info.InfoId">
+            <value>
+            Service field for interaction with the database
+            </value>
+        </member>
+        <member name="P:CreateBD20.DBStructure.Info.Name">
+            <value>
+            Passenger name
+            </value>
+        </member>
+        <member name="P:CreateBD20.DBStructure.Info.Port">
+            <value>
+            Destination port
+            </value>
+        </member>
+        <member name="P:CreateBD20.DBStructure.Info.RoomNumber">
+            <value>
+            Passenger room number
+            </value>
+        </member>
+        <member name="P:CreateBD20.DBStructure.Info.RoomType">
+            <value>
+            Passenger room type
+            </value>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:CreateBD20.DBStructure.Info.op_LessThan(CreateBD20.DBStructure.Info,CreateBD20.DBStructure.Info)" -->
+        <member name="M:CreateBD20.DBStructure.Info.op_GreaterThan(CreateBD20.DBStructure.Info,CreateBD20.DBStructure.Info)">
+            <summary>
+            Operator > overloading
+            </summary>
+            <returns>
+            True if left element is greater to the right, else false
+            </returns>
+            <param name="left">
+            Left element
+            </param>
+            /// <param name="right">
+            Right element
+            </param>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:CreateBD20.DBStructure.Info.op_LessThanOrEqual(CreateBD20.DBStructure.Info,CreateBD20.DBStructure.Info)" -->
+        <member name="M:CreateBD20.DBStructure.Info.op_GreaterThanOrEqual(CreateBD20.DBStructure.Info,CreateBD20.DBStructure.Info)">
+            <summary>
+            Operator >= overloading
+            </summary>
+            <returns>
+            True if left element is greater or equal to the right, else false
+            </returns>
+            <param name="left">
+            Left element
+            </param>
+            /// <param name="right">
+            Right element
+            </param>
+        </member>
+        <member name="M:CreateBD20.Finder.QuickSortInterface(System.Collections.Generic.List{CreateBD20.DBStructure.Info})">
+            <summary>
+            This function is used as interface for quick sort
+            </summary>
+            <returns>
+            Sorted List of Infos
+            </returns>
+            <param name="input">
+            List of Infos that we want to sort
+            </param>
+        </member>
+        <member name="M:CreateBD20.Finder.QuickSort(System.Collections.Generic.List{CreateBD20.DBStructure.Info},System.Int32,System.Int32)">
+            <summary>
+            This recursive function is made for sorting list of elements using quick sort. It measures sorting time. 
+            </summary>
+            <param name="input">
+            List of Info
+            </param>
+            /// <param name="start">
+            Position of sort_start
+            </param>
+            /// <param name="end">
+            Position of sort_end
+            </param>
+        </member>
+    </members>
+</doc>
